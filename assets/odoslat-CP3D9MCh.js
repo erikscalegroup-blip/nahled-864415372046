@@ -1,0 +1,2 @@
+import{n as e}from"./data-mCZckhRB.js";function t(t,n){let r=Object.entries(n).filter(([,e])=>e.trim()!==``).map(([e,t])=>`${e}: ${t}`).join(`
+`),i=`mailto:${e.email}?subject=${encodeURIComponent(t)}&body=${encodeURIComponent(r)}`;window.location.href=i}export{t};
